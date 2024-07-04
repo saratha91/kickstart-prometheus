@@ -15,8 +15,6 @@ RUN set -x \
   && cp -r prometheus-2.53.0.linux-amd64/* /usr/local/lib/prometheus \
   && rm -rf prometheus-2.53.0.linux-amd64* \
 
-
-
 # Create Redis directories.
 WORKDIR ../
 RUN set -x \
