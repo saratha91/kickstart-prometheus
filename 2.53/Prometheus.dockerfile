@@ -17,7 +17,7 @@ RUN set -x \
   && rm -rf prometheus-2.53.0.linux-amd64* 
 
 
-# Create Redis directories.
+# Create Prometheus directories.
 RUN set -x \
   && mkdir /opt/prometheus \
   && mkdir /opt/prometheus/data \
